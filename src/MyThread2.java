@@ -22,6 +22,6 @@ class MyThread2 extends  Thread{
         MyThread2 t2 = new MyThread2( "MyThread2 T2");
         t1.start();
         t2.start();
-        //t2.interrupt();  this will help to kill the thread and free up the resource
+        //t2.interrupt();  this will help to stop the current state of thread. This might help to free the resources or end the execution of current thread.
     }
 }
